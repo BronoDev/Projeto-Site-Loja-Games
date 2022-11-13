@@ -148,6 +148,9 @@ p{
     margin-right: 118px;
     margin-left: -19px;
 }
+.links p{
+  cursor: pointer;
+}
 #login::placeholder {
     text-size-adjust: 20px;
     font: normal normal normal 20px/27px Segoe UI;
