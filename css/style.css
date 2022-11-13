@@ -1,0 +1,495 @@
+/*WEBKIT*/
+
+
+*{
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    
+}
+body{
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 1080px;
+    background: #3E3E3EA6 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-family: 'Roboto', sans-serif;
+}
+a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+   
+a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+p{
+    margin: 20px;
+}
+#header-menu{
+    display: flex;
+    align-items: center;
+    height: 101px;
+    background: #3D3D3D 0% 0% no-repeat padding-box;
+}
+
+#menu-login{
+    display: flex ; 
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 120px;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 674px;
+    height: 688px;
+    background: #3D3D3D 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1;
+    
+}
+.logo-menu{
+    margin-left: 168px;
+}
+.img{
+    margin-top: 20px;
+    background: transparent url('img\Imagem-1.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #757272;
+    border-radius: 116px;
+    opacity: 1;
+}
+#inputs-buttom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 138px;    
+}
+.input-logins{
+    width: 398px;
+    height: 61px;
+    background: #FFFFFF73 0% 0% no-repeat padding-box;
+    border: 1px solid #757272;
+    border-radius: 31px;
+    opacity: 1;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.menus-home{
+    top: 45px;
+    left: 416px;
+    position: absolute;
+    left: 416px;
+    text-align: left;
+    font: normal normal bold 22px/30px Segoe UI;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+   
+}
+
+.input-senha{
+    margin-top: 20px;
+    margin-bottom: 18px;
+    width: 398px;
+    height: 61px;
+    background: #FFFFFF73 0% 0% no-repeat padding-box;
+    border: 1px solid #757272;
+    border-radius: 31px;
+    opacity: 1;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+::-webkit-input-placeholder{color:white}
+
+.check-buttom{
+    margin-bottom: 36px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button-entrar{
+    width: 398px;
+    height: 62px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 31px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal bold 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal normal 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    justify-content: space-between;
+    margin-right: 118px;
+    margin-left: -19px;
+}
+#login::placeholder {
+    text-size-adjust: 20px;
+    font: normal normal normal 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #FBFBFB;
+    opacity: 1;
+}
+#senha::placeholder {
+    text-align: start;
+    font: normal normal normal 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #FBFBFB;
+    opacity: 1;
+}
+.texto-lembrar {
+    margin-left: 10px;
+    
+}
+.form input[type="checkbox"]:before {
+    display: block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    content: "\f096";
+    opacity: 1 !important;
+    margin-top: -25px;
+    appearance: none;
+    background: #3D3D3D;
+}
+  
+.form input[type="checkbox"]:checked:before {
+    content: "\f046"; 
+}
+  
+.form input[type="checkbox"] {
+    font-size: 22px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: white;
+}
+input:checked + span {
+    font-weight: bold
+}
+#banner-home{
+    background-image: url("https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/portals_3/SI_Hub_Zelda_Portal_image1600w.jpg");
+    height: 400px;
+     width: 100%;
+}
+.botoes-banner-home{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 322px;
+    padding-right: 307px;
+    
+}
+.desconto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 102px;
+    height: 57px;
+    font: normal normal 600 22px/30px Segoe UI;
+    background: #FFFFFF87 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 29px;
+    opacity: 1;
+    margin: 0 31px 0 0;
+}
+.valor{
+    width: 84px;
+    height: 30px;
+    text-align: left;
+    font: normal normal bold 22px/30px Segoe UI;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    margin: 0 31px 0 0;
+}
+.botao-carrinho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 245px;
+    height: 57px;
+    font: normal normal 600 22px/30px Segoe UI;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 35px;
+    opacity: 1;
+    margin: 0 0;
+    color: black;
+}
+
+@keyframes tonext {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: 100%;
+    }
+    98% {
+      left: 100%;
+    }
+    99% {
+      left: 0;
+    }
+}
+  
+@keyframes tostart {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: -300%;
+    }
+    98% {
+      left: -300%;
+    }
+    99% {
+      left: 0;
+    }
+}
+  
+@keyframes snap {
+    96% {
+      scroll-snap-align: center;
+    }
+    97% {
+      scroll-snap-align: none;
+    }
+    99% {
+      scroll-snap-align: none;
+    }
+    100% {
+      scroll-snap-align: center;
+    }
+ }
+
+.carousel ::-webkit-scrollbar {
+    width: 0;
+}
+  
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+*::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+}
+  
+* {
+    -ms-overflow-style: none;
+}
+  
+ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+  .carousel {
+    border-radius: 20px;
+    width: 90%;
+    top: 65.3px; 
+    position: relative;
+    padding-top: 25%;
+    margin-left: 5%;
+    filter: drop-shadow(0 0 10px #0003);
+    perspective: 100px;
+  }
+  
+  .carousel__viewport {
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .carousel__slide {
+    border-radius: 20px;
+    position: relative;
+    flex: 0 0 100%;
+    width: 100%;
+    background-color: #f99;
+    
+  }
+  
+  .carousel__slide:nth-child(even) {
+    background-color: #99f;
+  }
+  
+  .carousel__slide:before {
+    
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-40%,70px);
+    color: #fff;
+    font-size: 2em;
+  }
+  
+  .carousel__snapper {
+    position: absolute;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: center;
+  }
+  
+  @media (hover: hover) {
+    .carousel__snapper {
+      animation-name: tonext, snap;
+      animation-timing-function: ease;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      border-radius: 20px;
+    }
+  
+    .carousel__slide:last-child .carousel__snapper {
+      animation-name: tostart, snap;
+    }
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .carousel__snapper {
+      animation-name: none;
+    }
+  }
+  
+  .carousel:hover .carousel__snapper,
+  .carousel:focus-within .carousel__snapper {
+    animation-name: none;
+  }
+  
+  .carousel__navigation {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+  
+  .carousel__navigation-list,
+  .carousel__navigation-item {
+    display: inline-block;
+  }
+  
+  .carousel__navigation-button {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #333;
+    background-clip: content-box;
+    border: 0.25rem solid transparent;
+    border-radius: 50%;
+    font-size: 0;
+    transition: transform 0.1s;
+  }
+  
+  .carousel::before,
+  .carousel::after,
+  .carousel__prev,
+  .carousel__next {
+    position: absolute;
+    top: 0;
+    margin-top: 13%;
+    width: 4rem;
+    height: 4rem;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    font-size: 0;
+    outline: 0;
+  }
+  
+  .carousel::before,
+  .carousel__prev {
+    left: -1rem;
+  }
+  
+  .carousel::after,
+  .carousel__next {
+    right: -1rem;
+  }
+  
+  .carousel::before,
+  .carousel::after {
+    content: '';
+    z-index: 1;
+    background-color: #333;
+    background-size: 1.5rem 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    text-align: center;
+    pointer-events: none;
+}
+  
+.carousel::before {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+  
+.carousel::after {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+#carousel__slide1{
+    background: url(https://assets.reedpopcdn.com/zelda_iWH61S4.jpg/BROK/thumbnail/1600x900/quality/100/zelda_iWH61S4.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+#carousel__slide2{
+    background: url(https://uploads.jovemnerd.com.br/wp-content/uploads/2017/07/v-zelda-breath-of-the-wild-champions-ballad-1210x540.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+#carousel__slide3{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq8Cjkp2dh3BGzJlZTaiYALaUaa2y2WgT30EmT23MSWj_2vH73ihhj8d1bburRRClM2Fo&usqp=CAU)  no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+#carousel__slide4{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzdXTJ3eMoW3v0HZerDkk2HtZ-SCRpuRLtXIxjTcsrvj68x7FuW1j009GgRy7u-ylJbwg&usqp=CAU)  no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
