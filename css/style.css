@@ -22,7 +22,6 @@ a:link {
     color: #FFF;
     text-decoration: none;
 }
-   
 a:hover {
     color: #FFF;
     text-decoration: underline;
@@ -74,7 +73,7 @@ p{
     margin-left: 138px;    
 }
 .input-logins{
-    width: 398px;
+    width: 368px;
     height: 61px;
     background: #FFFFFF73 0% 0% no-repeat padding-box;
     border: 1px solid #757272;
@@ -83,24 +82,27 @@ p{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    padding: 0px 0px 0px 30px;
 }
+
 .menus-home{
-    top: 45px;
-    left: 416px;
     position: absolute;
-    left: 416px;
+    left: 316px;
     text-align: left;
     font: normal normal bold 22px/30px Segoe UI;
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 1;
-   
+}
+.menus-home a{
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .input-senha{
     margin-top: 20px;
     margin-bottom: 18px;
-    width: 398px;
+    width: 368px;
     height: 61px;
     background: #FFFFFF73 0% 0% no-repeat padding-box;
     border: 1px solid #757272;
@@ -109,6 +111,7 @@ p{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    padding: 0px 0px 0px 30px;
 }
 ::-webkit-input-placeholder{color:white}
 
@@ -193,7 +196,7 @@ input:checked + span {
 #banner-home{
     background-image: url("https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/portals_3/SI_Hub_Zelda_Portal_image1600w.jpg");
     height: 400px;
-     width: 100%;
+    width: 100%;
 }
 .botoes-banner-home{
     display: flex;
@@ -284,7 +287,7 @@ input:checked + span {
     100% {
       scroll-snap-align: center;
     }
- }
+}
 
 .carousel ::-webkit-scrollbar {
     width: 0;
