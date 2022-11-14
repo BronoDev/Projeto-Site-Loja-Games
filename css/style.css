@@ -82,7 +82,7 @@ p{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    padding: 0px 0px 0px 30px;
+    text-indent: 30px;
 }
 
 .menus-home{
@@ -100,54 +100,55 @@ p{
 }
 
 .input-senha{
-    margin-top: 20px;
-    margin-bottom: 18px;
-    width: 368px;
-    height: 61px;
-    background: #FFFFFF73 0% 0% no-repeat padding-box;
-    border: 1px solid #757272;
-    border-radius: 31px;
-    opacity: 1;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    padding: 0px 0px 0px 30px;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  width: 368px;
+  height: 61px;
+  background: #FFFFFF73 0% 0% no-repeat padding-box;
+  border: 1px solid #757272;
+  border-radius: 31px;
+  opacity: 1;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-indent:  30px; /*Ajustar local texto*/
 }
 ::-webkit-input-placeholder{color:white}
 
 .check-buttom{
-    margin-bottom: 36px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    cursor: pointer;
+  margin-bottom: 36px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
 }
 .button-entrar{
-    width: 398px;
-    height: 62px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border-radius: 31px;
-    opacity: 1;
-    text-align: left;
-    font: normal normal bold 20px/27px Segoe UI;
-    letter-spacing: 0px;
-    color: #707070;
-    opacity: 1;
-    text-align: center;
+  width: 398px;
+  height: 62px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 31px;
+  opacity: 1;
+  text-align: left;
+  font: normal normal bold 20px/27px Segoe UI;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  text-align: center;
     cursor: pointer;
 }
 .links{
-    display: flex;
-    text-align: left;
-    text-decoration: underline;
-    font: normal normal normal 20px/27px Segoe UI;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-    justify-content: space-between;
-    margin-right: 118px;
-    margin-left: -19px;
+  display: flex;
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal normal 20px/27px Segoe UI;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  justify-content: space-between;
+  margin-right: 118px;
+  margin-left: -19px;
 }
+a:-webkit-any-link {color: white;}
 .links p{
   cursor: pointer;
 }
